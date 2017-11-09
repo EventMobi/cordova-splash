@@ -24,14 +24,7 @@ var getPlatforms = function (projectName) {
     splashPath : (settings.RESOURCE_PATH + '/' + settings.SCREEN_DIR + '/ios/').replace('//', '/'),
     platformSplashPath : 'platforms/ios/' + projectName + '/Resources/splash/',
     splash : [
-      { name: "Default@2x~iphone~anyany.png", width: 1334, height: 1334 },
-      { name: "Default@2x~iphone~comany.png", width: 750, height: 1334 },
-      { name: "Default@2x~iphone~comcom.png", width: 1334, height: 750 },
-      { name: "Default@3x~iphone~anyany.png", width: 2208, height: 2208 },
-      { name: "Default@3x~iphone~anycom.png", width: 2208, height: 1242 },
-      { name: "Default@3x~iphone~comany.png", width: 1242, height: 2208 },
-      { name: "Default@2x~ipad~anyany.png", width: 2732, height: 2732 },
-      { name: "Default@2x~ipad~comany.png", width: 1278, height: 2732 },
+      { name: "Default@2x~universal~anyany.png", width: 2732, height: 2732 },
     ]
   });
   platforms.push({
