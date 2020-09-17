@@ -1,5 +1,5 @@
 {
-  "name": "cordova-splash",
+  "name": "@eventmobi/cordova-splash",
   "version": "1.0.0",
   "description": "Automatic splash screen cropping for Cordova",
   "main": "index.js",
